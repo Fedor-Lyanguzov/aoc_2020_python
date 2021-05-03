@@ -1,6 +1,6 @@
 import re
 
-with open('03-input') as f:
+with open('input') as f:
     landscape = [row.strip() for row in f]
 
 count = 0

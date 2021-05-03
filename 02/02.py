@@ -1,6 +1,6 @@
 import re
 
-with open('02-input') as f:
+with open('input') as f:
     passwords = [row.strip() for row in f]
 
 pattern = re.compile(r'(\d*)-(\d*) (\w): (.*)')

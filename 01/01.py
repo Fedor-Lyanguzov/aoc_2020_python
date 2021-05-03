@@ -1,6 +1,6 @@
 from itertools import combinations
 
-with open('01-input') as f:
+with open('input') as f:
     numbers = {int(row.strip()) for row in f}
 
 for n in numbers:
